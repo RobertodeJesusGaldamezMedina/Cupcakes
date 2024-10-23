@@ -1,0 +1,32 @@
+.centrado {
+    width: 50%; /* Ajusta el ancho según sea necesario */
+    margin: 0 auto; /* Esto centra el div horizontalmente */
+   
+}
+
+.contenedor {
+    display: grid; /* Utiliza grid para crear columnas */
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
+    gap: 20px; /* Espacio entre tarjetas */
+}
+.card {
+    background-color: rgb(92, 143, 252);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Oculta partes de la tarjeta que sobresalen */
+    width: 300px; /* Ancho de la tarjeta */
+}
+.card img {
+    width: 100%; /* Hace que la imagen ocupe el ancho completo de la tarjeta */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+}
+.card-content {
+    padding: 15px; /* Espaciado interno del contenido de la tarjeta */
+}
+.card-content h3 {
+    margin: 0; /* Elimina el margen del título */
+    font-size: 1.5em; /* Tamaño del título */
+}
+.card-content p {
+    color: #666; /* Color del texto de la descripción */
+}
